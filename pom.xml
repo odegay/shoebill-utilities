@@ -20,7 +20,7 @@
 	</properties>
 
     <repositories>
- 		<repository>
+<!-- 		<repository>
             <id>gtaun-local-repo</id>
             <name>GTAUN Local Repository</name>
             <url>file://d:/maven/repo/net/gtaun/</url>
@@ -33,7 +33,15 @@
                 <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>        
-    
+-->
+		<repository>
+            <id>oxotarp-shoebill</id>
+            <url>http://35.206.126.225/artifactory/oxotarp_shoebill/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>                           
 
         <repository>
             <id>global-maven-repo</id>
@@ -69,43 +77,13 @@
 		</license>
 	</licenses>
 
+<!--
 	<scm>
 		<url>https://github.com/odegay/shoebill-utilities</url>
 		<connection>https://github.com/odegay/shoebill-utilities.git</connection>
 		<developerConnection>scm:git:git@github.com:odegay/shoebill-utilities.git</developerConnection>
 	</scm>
-
-	<developers>
-		<developer>
-			<name>MK124</name>
-			<id>MK124</id>
-			<url>https://github.com/mk124</url>
-			<email>mk124a@gmail.com</email>
-			<organization>Shoebill</organization>
-			<organizationUrl>https://github.com/Shoebill</organizationUrl>
-			<timezone>+8</timezone>
-		</developer>
-
-		<developer>
-			<name>JoJLlmAn</name>
-			<id>JoJLlmAn</id>
-			<url>https://github.com/JoJLlmAn</url>
-			<email>jojllman@gmail.com</email>
-			<organization>Shoebill</organization>
-			<organizationUrl>https://github.com/Shoebill</organizationUrl>
-			<timezone>+8</timezone>
-		</developer>
-
-		<developer>
-			<name>odegay</name>
-			<id>odegay</id>
-			<url>https://github.com/odegay</url>
-			<email>dolegan@gmail.com</email>
-			<organization>Oxota_RP</organization>
-			<organizationUrl>https://github.com/odegay</organizationUrl>
-			<timezone>+6</timezone>
-		</developer>
-	</developers>
+-->
 
 	<!-->
 	<ciManagement>
