@@ -56,6 +56,12 @@
     </repositories>
 
 	<distributionManagement>
+	
+			<repository>
+            <id>deployment</id>
+            <name>Releases</name>
+            <url>http://35.206.126.225/artifactory/oxotarp_shoebill/</url>
+        </repository>
 <!--        <repository>
             <id>deployment</id>
             <name>Releases</name>
